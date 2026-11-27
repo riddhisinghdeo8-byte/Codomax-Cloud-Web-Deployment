@@ -1,0 +1,25 @@
+{
+  "project": "Codomax Cloud Deployment",
+  "roles": {
+    "admin": {
+      "permissions": [
+        "create_bucket",
+        "upload_object",
+        "download_object",
+        "delete_object"
+      ]
+    },
+    "developer": {
+      "permissions": [
+        "upload_object",
+        "download_object"
+      ]
+    },
+    "viewer": {
+      "permissions": [
+        "download_object"
+      ]
+    }
+  },
+  "default_role": "viewer"
+}

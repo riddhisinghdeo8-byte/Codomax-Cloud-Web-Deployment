@@ -1,0 +1,31 @@
+CODOMAX CLOUD SERVICES REPORT
+
+1. COMPUTE
+Application deployed using Docker container.
+
+2. OBJECT STORAGE
+RustFS configured with persistent Docker volume.
+Bucket: codomax-project-storage
+
+3. DATABASE
+SQLite database connected using Docker volume.
+Volume: codomax-database
+
+4. VIRTUAL NETWORKING
+Docker network: codomax-network
+
+5. IDENTITY AND ACCESS MANAGEMENT
+Created an IAM role and permission policy demonstration.
+
+6. MONITORING
+Docker logs, container health and resource usage checked.
+
+7. RESOURCE MANAGEMENT
+Memory limit: 512 MB
+CPU limit: 1 CPU
+
+8. ENVIRONMENT CONFIGURATION
+Environment variables configured using .env.
+
+PROJECT STATUS
+Local cloud deployment simulation completed successfully.

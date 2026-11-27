@@ -1,0 +1,4 @@
+Codomax Cloud Deployment Project
+Object Storage: RustFS
+Bucket: codomax-project-storage
+Storage Status: Working Successfully
